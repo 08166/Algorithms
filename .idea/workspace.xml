@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06967161-8d12-45ec-a343-4ec2f1ebf9c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/1330.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/2753.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/9498.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10171.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10172.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10430.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10926.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/11382.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/18108.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/2588.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/a_and_b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/2884.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/14681.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +115,7 @@
       <workItem from="1728001053551" duration="1986000" />
       <workItem from="1728003073337" duration="13661000" />
       <workItem from="1728025561754" duration="981000" />
-      <workItem from="1728026562466" duration="4295000" />
+      <workItem from="1728026562466" duration="4771000" />
     </task>
     <servers />
   </component>
