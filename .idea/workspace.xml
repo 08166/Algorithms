@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06967161-8d12-45ec-a343-4ec2f1ebf9c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_data_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_data_type.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/1330.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/2753.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/conditional_statement/9498.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10171.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10172.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10430.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/10926.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/11382.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/18108.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/2588.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/four_basic_operations/a_and_b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +53,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aidenlee/Algorithms&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Algorithms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,6 +68,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Algorithms\baekjoon\four_basic_operations" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="algorithms_python" />
@@ -89,8 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +123,10 @@
       <workItem from="1727957223784" duration="7000000" />
       <workItem from="1727966429477" duration="438000" />
       <workItem from="1727966871040" duration="811000" />
+      <workItem from="1728001053551" duration="1986000" />
+      <workItem from="1728003073337" duration="13661000" />
+      <workItem from="1728025561754" duration="981000" />
+      <workItem from="1728026562466" duration="4295000" />
     </task>
     <servers />
   </component>
