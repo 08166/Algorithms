@@ -17,15 +17,5 @@ data = "Don't you konw \"Python\"?"
 print(data)
 
 
-
-
-
-
-
-
-
-
-
-
 end_time = time.time()
 print(f"time : {start_time - end_time}")
