@@ -34,9 +34,21 @@ KOI 전자에서는 건강에 좋고 맛있는 훈제오리구이 요리를 간�
 0 13
 
 """
-H = int(input())
-M = int(input())
-cooking_time = int(input())
+
+def solution(h, m, c):
+    h += c  // 60
+    m += c % 60
+    
+    if m >= 60:
+        h += 1
+        m -= 60
+    if h >= 24:
+        h -= 24
 
 
-print(H, M + cooking_time)
+    return print(h, m)
+
+
+print(solution(14, 30, 20))
+print(solution(17, 40, 80))
+print(solution(23, 48, 25))
