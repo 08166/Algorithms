@@ -20,7 +20,7 @@
 - 예제 입력 1
 3 3 6
 - 예제 출력 1
-1300
+1299
 - 예제 입력 2
 2 2 2
 - 예제 출력 2
@@ -31,3 +31,27 @@
 600
 """
 
+# def solution(a, b, c):
+
+#     if a == b == c: 
+#         return print(10000 + a * 1000)
+#     elif a == b != c:
+#         return print(1000 + a * 100)
+#     elif a!= b != c:
+#         return print(max(a, b, c) * 100)
+
+
+# solution(3,3,6)
+# solution(2,2,2)
+# solution(6,2,5)
+
+a,b,c = map(int, input().split())
+
+if a == b == c:
+    print(10000 + a * 1000)
+elif a == b or a == c:
+    print(1000 + a * 100)
+elif b == c:
+    print(1000 + b * 100)
+else :
+    print(max(a,b,c) * 100)
