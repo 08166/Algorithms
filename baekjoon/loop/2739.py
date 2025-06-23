@@ -21,7 +21,9 @@
             2 * 9 = 18
 """
 
-def solution(n):
-    return print(n)
 
-solution(2)
+def solution(n):
+    for i in range(1,10):
+        print(f"{n} * {i} = {n * i}")
+
+solution(int(input()))    
