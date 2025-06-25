@@ -25,12 +25,19 @@
         7
 """
 
-def solution():
-    return
+T = int(input())
 
-solution(5)
-solution(1, 1)
-solution(2,3)
-solution(3,4)
-solution(9,8)
-solution(5,2)
+for i in range(T):
+    a, b = map(int, input().split())
+    print(a+b)
+
+
+# def solution(a,b,t):
+#     return
+
+# solution(5)
+# solution(1,1)
+# solution(2,3)
+# solution(3,4)
+# solution(9,8)
+# solution(5,2)
