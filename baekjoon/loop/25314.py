@@ -20,7 +20,7 @@
 출력 : 
     혜아가 N바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.
 
-예제 입력1 : 
+ㄹ예제 입력1 : 
         4
 
 예제 출력1 :  
@@ -40,5 +40,9 @@
 'long long long' is too long for GCC라는 에러 메시지와 함께 컴파일되지 않는다.
 """
 
-def solution():
-    return None
+N = int(input())
+
+answer = "int"
+for i in range(N//4): 
+    answer = "long " + answer
+print(answer)
