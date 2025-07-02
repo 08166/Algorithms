@@ -22,3 +22,17 @@
 예제 출력1 : 
         3 4 1 2 5
 """
+
+n, m = map(int, input().split())
+
+baskets = [i for i in range(1, n + 1)]
+print(f"baskets : {baskets}")
+
+for _ in  range(m):
+    i, j = map(int, input().split())
+    basket = baskets[i - 1]
+    baskets = baskets[j - 1]
+    # baskets[j - 1] = basket
+    print("basket : ",basket)
+    print("baskets ; ",baskets)
+    
