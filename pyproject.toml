@@ -8,6 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = "^3.10"
 dependencies = [
+    "timeout (>=0.1.2,<0.2.0)"
 ]
 
 

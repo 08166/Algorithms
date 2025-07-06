@@ -22,3 +22,19 @@
 예제 출력1 : 
         3 4 1 2 5
 """
+
+n, m = map(int, input().split())
+
+baskets = [i for i in range(1, n + 1)]
+
+basket = 0 
+
+for _ in  range(m):
+    i, j = map(int, input().split())
+    basket = baskets[i - 1:j]
+    basket.reverse()
+    baskets[i - 1 : j] = basket
+
+for i in range(n):
+    print(baskets[i], end=" ")
+    
