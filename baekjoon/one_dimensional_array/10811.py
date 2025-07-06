@@ -26,13 +26,15 @@
 n, m = map(int, input().split())
 
 baskets = [i for i in range(1, n + 1)]
-print(f"baskets : {baskets}")
+
+basket = 0 
 
 for _ in  range(m):
     i, j = map(int, input().split())
-    basket = baskets[i - 1]
-    baskets = baskets[j - 1]
-    # baskets[j - 1] = basket
-    print("basket : ",basket)
-    print("baskets ; ",baskets)
+    basket = baskets[i - 1:j]
+    basket.reverse()
+    baskets[i - 1 : j] = basket
+
+for i in range(n):
+    print(baskets[i], end=" ")
     
