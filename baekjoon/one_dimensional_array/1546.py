@@ -56,12 +56,12 @@
 """
 
 n = int(input())
-print("과목 수 : ", n)
 i = list(map(int, input().split()))
-print("각 과목당 점수 : ", i )
 m = max(i)
-print("과목 점수중 제일 높은값 : ", m )
-
+n_list = []
 for _ in range(n):
     result = (i[_] / m) * 100
-    print(result)
+    n_list.append(result)
+
+
+print(sum(n_list) / len(n_list))
