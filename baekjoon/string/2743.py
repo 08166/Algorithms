@@ -13,6 +13,4 @@ pulljima
 예제 출력 1 
 8
 """
-
-str = list(map(str, input()))
-print(str.count())
+print(len(input()))
