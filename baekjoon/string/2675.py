@@ -22,3 +22,11 @@ QR Code "alphanumeric" 문자는 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\$%*+-./: �
 AAABBBCCC
 /////HHHHHTTTTTPPPPP
 """
+
+n = int(input())
+
+for _ in range(n):
+    cnt, word = input().split()
+    for x in word:
+        print(x * int(cnt), end='')
+    print()
