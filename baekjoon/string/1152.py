@@ -26,3 +26,6 @@ The last character is a blank
 예제 출력 3
 6
 """
+word = input().split()
+
+print(len(word))
