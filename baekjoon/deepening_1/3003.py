@@ -26,8 +26,11 @@
 # k, q, l, b, n, p
 # 0. 1. 2. 2. 2. 7
 # 0 <= 10 
-n = input().split()
-res = []
-for _ in range(len(n)):
-    for i in n:
-        print(n.index(i))
+
+peasc = [1, 1, 2, 2, 2, 8]
+
+n = list(map(int, input().split()))
+print(n)
+for i in range(len(peasc)):
+    print(peasc[i] - n[i], end = ' ')
+        
