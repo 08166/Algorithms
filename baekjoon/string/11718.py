@@ -19,10 +19,9 @@ Baekjoon
 Online Judge
 """
 
-    
+
 while True:
     try:
         print(input())
     except EOFError:
         break
-            

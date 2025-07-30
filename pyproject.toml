@@ -1,16 +1,32 @@
-[project]
+[tool.poetry]
 name = "codingtest"
 version = "0.1.0"
 description = "baeckjoon & programmers Coding Test"
-authors = [
-    {name = "wallace",email = "j76067469@gmail.com"}
-]
+authors = ["wallace <j76067469@gmail.com>"]
 readme = "README.md"
-requires-python = "^3.10"
-dependencies = [
-    "timeout (>=0.1.2,<0.2.0)"
-]
 
+[tool.poetry.dependencies]
+python = "^3.10"
+timeout = ">=0.1.2,<0.2.0"
+pandas = ">=2.3.1,<3.0.0"
+requests = ">=2.32.4,<3.0.0"
+sqlalchemy = ">=2.0.41,<3.0.0"
+beautifulsoup4 = ">=4.13.4,<5.0.0"
+lxml = ">=6.0.0,<7.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.7"
+pre-commit = "^4.2.0"
+
+[tool.ruff]
+line-length = 120
+exclude = [
+    ".git",
+    "__pycache__",
+    "tests/*"
+]
+lint.ignore = ["F401", "E402", "E501"]
+lint.select = ["I", "E", "F", "W", "C90"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
