@@ -2,13 +2,13 @@
 Baekjoon Problem 2908: 상수 (Sangsue)
 
 Problem Description:
-Sang-geun's younger brother, Sang-su, is bad at math and has trouble reading numbers. 
-To help him, Sang-geun gives him a problem comparing the size of numbers. 
+Sang-geun's younger brother, Sang-su, is bad at math and has trouble reading numbers.
+To help him, Sang-geun gives him a problem comparing the size of numbers.
 Sang-geun writes two three-digit numbers on a chalkboard and asks Sang-su to say which one is larger.
 
 The twist is that Sang-su reads numbers backward. For example, he reads 734 as 437.
 
-Your program needs to take two three-digit numbers as input, reverse them as Sang-su would, 
+Your program needs to take two three-digit numbers as input, reverse them as Sang-su would,
 and then print the larger of the two reversed numbers.
 
 Input:

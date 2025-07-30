@@ -70,43 +70,43 @@ print(a[1 : 4])
 """
 print("------리스트 컴프리헨션-------")
 # i 가 순회 하면서 10의 길이 만큼 만들어 낸다
-array = [i for i in range(10)]
+array1 = [i for i in range(10)]
 
-print(array)
+print(array1)
 
 print("------리스트 컴프리헨션 코드-------")
 # 0부터 19까지의 수 중에서 홀수만 포함하는 리스트
-array = [i for i in range(20) if i % 2 == 1]
+array2 = [i for i in range(20) if i % 2 == 1]
 
-print(array)
+print(array2)
 
 print("------일반적인 코드-----")
 
 # 0부터 19까지의 수 중에서 홀수만 포함하는 리스트
-array = []
+array3 = []
 for i in range(20):
     if i % 2 == 1:
-        array.append(i)
-print(array)
+        array3.append(i)
+print(array3)
 
 # 1부터 9까지의 수들의 제곱 값을 포함하는 리스트
-array = [i * i for i in range(1, 10)]
-print(array)
+array4 = [i * i for i in range(1, 10)]
+print(array4)
 
 """
 - 리스트 컴프리헨션은 2차원 리스트를 초기화할 때 효과적으로 사용될 수 있습니다.
 - 특히 N X 크기의 2차원 리스트를 한 번에 초기화 해야 할 때 매우 유용합니다.
     - 좋은 예시 : array = [[0 * m for _ in range(n)]
 - 만약 2차원 리스트를 초기화할 때 다음과 같이 작성하면 예기치 않은 결과가 나올 수 있습니다.
-    - 잘못된 예시 : array = [[0 * m ] * n 
+    - 잘못된 예시 : array = [[0 * m ] * n
     - 위 코드는 전체 리스트안에 포함된 각 리스트가 모두 같은 객체로 인식됩니다.
 """
 
 print("------- N X M의 크기의 2차원 리스트 초기화 --------")
 n = 4
 m = 3
-array = [[0] * m for _ in range(n)]
-print(array)
+array5 = [[0] * m for _ in range(n)]
+print(array5)
 """
 ** 언더바 _____
 - 파이썬에서는 반복을 수행하되 반복을 위한 변수의 값을 무시하고자 할 때 언저바(_)를 자주 사용합니다.
@@ -133,7 +133,7 @@ sort()        변수.sort()                       기본 정렬 기능으로 오
 reverse()     변수.reverse()                    리스트의 원소의 순서를 모두 뒤집는다                O(N)
 insert()      insert(삽입할 위치 인덱스, 삽입할 값)  특정한 인덱스 위치에 원소를 삽입할 때 사용            O(N)
 count()       변수.count(특정 값)                리스트에서 특정한 값을 가지는 데이터의 개수를 셀 때     O(N)
-remove()      변수.remove(특정 값)               특정한 값을 갖는 원소를 제거하는데,값을 가진 원소가 여러개면 하나만 제거 
+remove()      변수.remove(특정 값)               특정한 값을 갖는 원소를 제거하는데,값을 가진 원소가 여러개면 하나만 제거
 """
 print("------list 외의 기타 메서드-------")
 

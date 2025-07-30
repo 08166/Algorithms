@@ -33,7 +33,7 @@
 
 # def solution(a, b, c):
 
-#     if a == b == c: 
+#     if a == b == c:
 #         return print(10000 + a * 1000)
 #     elif a == b != c:
 #         return print(1000 + a * 100)
