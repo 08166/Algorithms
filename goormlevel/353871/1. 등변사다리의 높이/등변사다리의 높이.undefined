@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 # UTF-8 encoding when using korean
 
-
 k, d1, d2 = map(int, input().split())
 
-result = 4 * (k**2) - (d1 - d2)**2
-
-print(result)
+h = 4 * (k**2) - (d1 - d2)**2
+print(h)
 
