@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# UTF-8 encoding when using korean
+
+bx, by = map(int, input().split())
+gx, gy = map(int, input().split())
+
+n = int(input())
+
+dist = (bx - gx)**2 + (by - gy)**2
+
+min_x = min(bx, gx)
+max_x = max(bx, gx)
+min_y = min(by, gy)
+max_y = max(by, gy)
+
+trap = 0
+for i in range(n):
+	tx, ty = map(int, input().split())
+
+	if min_x <= tx <= max_x and min_y <= ty <= max_y:
+		trap += 1
+
+if trap >= 3 and dist >= 25:
+	print("YES")
+else:
+	print("NO")
+
+
+	
+
+	
