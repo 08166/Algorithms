@@ -4,5 +4,5 @@
 k, d1, d2 = map(int, input().split())
 
 h = 4 * (k**2) - (d1 - d2)**2
-print(h)
 
+print(h)
